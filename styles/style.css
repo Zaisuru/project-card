@@ -1,0 +1,81 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color:#F3F1F7 ;
+    padding: 1%;
+}
+
+section{
+    margin: 3em 0 3em 0;
+}
+
+h1{
+    text-align: center;
+}
+
+#projectCard{
+    display: flex;
+    justify-content: space-around;
+}
+
+.card{
+    border: 1px solid #FBD5D4;
+    width: 20em;
+    height: 25em;
+    text-align: center;
+}
+
+.card-img-top{
+    width: 100%;
+    height: 55%;
+}
+
+#addCard{
+    border-radius: 0.5em;
+    padding: 2%;
+    background-color: #FBD5D4;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+form{
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    padding: 0.5em;
+    margin: 2em;
+}
+.addCard__group{
+    margin: 0.5em;
+    display: flex;
+    justify-content: space-between;
+}
+input[type=text], input[type=url]{
+    border-radius: 0.5em;
+    border: none;
+    width: 60%;
+}
+
+.addCard__textarea{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 1em;
+}
+textarea{
+    width: 90%;
+    border-radius: 0.5em;
+    border: none;
+}
+.addCard__button{
+    margin-top: 1em;
+    display: flex;
+    justify-content: center;
+}
+.btn{
+    width: 55%;
+    background-color: #B4797A;
+}
+
